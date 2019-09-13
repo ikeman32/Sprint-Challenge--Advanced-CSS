@@ -1,1 +1,29 @@
 // Navigation code here
+nav{
+    .flexDisplay(@align:center, @direction:column);
+    
+    @media @phone{
+        width: 90%;
+    }
+
+    h1{
+        font-family: 'Russo One', sans-serif;
+        color: @header-font-color;
+        font-size: 3.5rem;
+        padding: 20px 0;
+    }//closes h1
+
+    .nav-links{
+        margin-bottom: 10px;
+
+        a{
+            padding-right: 20px;
+            text-decoration: none;
+            font-size: 1.6rem;
+
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+}
