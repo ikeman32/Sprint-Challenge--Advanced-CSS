@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive site will adapt to certain conditions like a specific screen size and a fully responsive site will change in all manners concievable.
+
 2. Describe what it means to be mobile first vs desktop first.
 
 Mobile first means that the website is designed for mobile devices in mind first and is built around that idea. Then media breakpoints are introduces for larger screens. With desktop first the site is built with thelargest screen first and media break points are added for mobile devices.
@@ -118,7 +120,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [x] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
