@@ -160,6 +160,27 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: column;
+}
+nav h1 {
+  font-size: 2.5rem;
+  padding: 20px 0;
+}
+nav .nav-links {
+  margin-bottom: 10px;
+}
+nav .nav-links a {
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+nav .nav-links a:last-child {
+  padding-right: 0;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -211,6 +232,12 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn .signup {
+  background-color: #22283A;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 10px;
 }
 .home .walk .walk-img {
   width: 46%;
